@@ -14,6 +14,8 @@
 		4FD2B06721B6AE30002445E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD2B06521B6AE30002445E1 /* LaunchScreen.storyboard */; };
 		4FD2B07221B6AE30002445E1 /* HomeWork___Swift_____________35__UITableView_Search_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD2B07121B6AE30002445E1 /* HomeWork___Swift_____________35__UITableView_Search_Tests.swift */; };
 		4FD2B07D21B6AE30002445E1 /* HomeWork___Swift_____________35__UITableView_Search_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD2B07C21B6AE30002445E1 /* HomeWork___Swift_____________35__UITableView_Search_UITests.swift */; };
+		4FD2B08B21B6AEDB002445E1 /* OBStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD2B08A21B6AEDB002445E1 /* OBStudent.swift */; };
+		4FD2B08D21B6B9C5002445E1 /* OBSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD2B08C21B6B9C5002445E1 /* OBSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4FD2B07821B6AE30002445E1 /* HomeWork - Swift -Урок номер 35. UITableView Search.UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HomeWork - Swift -Урок номер 35. UITableView Search.UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD2B07C21B6AE30002445E1 /* HomeWork___Swift_____________35__UITableView_Search_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeWork___Swift_____________35__UITableView_Search_UITests.swift"; sourceTree = "<group>"; };
 		4FD2B07E21B6AE30002445E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD2B08A21B6AEDB002445E1 /* OBStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBStudent.swift; sourceTree = "<group>"; };
+		4FD2B08C21B6B9C5002445E1 /* OBSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		4FD2B05B21B6AE2F002445E1 /* HomeWork - Swift -Урок номер 35. UITableView Search. */ = {
 			isa = PBXGroup;
 			children = (
-				4FD2B05C21B6AE2F002445E1 /* AppDelegate.swift */,
+				4FD2B08A21B6AEDB002445E1 /* OBStudent.swift */,
+				4FD2B08C21B6B9C5002445E1 /* OBSection.swift */,
 				4FD2B05E21B6AE2F002445E1 /* ViewController.swift */,
+				4FD2B05C21B6AE2F002445E1 /* AppDelegate.swift */,
 				4FD2B06021B6AE2F002445E1 /* Main.storyboard */,
 				4FD2B06321B6AE30002445E1 /* Assets.xcassets */,
 				4FD2B06521B6AE30002445E1 /* LaunchScreen.storyboard */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FD2B08D21B6B9C5002445E1 /* OBSection.swift in Sources */,
 				4FD2B05F21B6AE2F002445E1 /* ViewController.swift in Sources */,
 				4FD2B05D21B6AE2F002445E1 /* AppDelegate.swift in Sources */,
+				4FD2B08B21B6AEDB002445E1 /* OBStudent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
